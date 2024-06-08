@@ -1,18 +1,22 @@
 {
     "applinks": {
-        "apps": [],
         "details": [
             {
-                "appID": "LYTQ3DGC2U.com.bw.calgaryHostApp",
+                "appIDs": "LYTQ3DGC2U.com.bw.calgaryHostApp",
                 "components": [
                     {
-                        "/": "/details/*",
-                        "?": { "id": "????????????????????????" },
-                        "comment": "Matches any URL whose path starts with /help/ and which has a query item with name 'articleNumber' and a value of exactly 4 characters"
+                        "/": "/details/*"
+                    }
+                ]
+            },
+            {
+                "appIDs": "LYTQ3DGC2U.com.bw4.calgary",
+                "components": [
+                    {
+                        "/": "/details/*"
                     }
                 ]
             }
         ]
     }
- }
- 
+}
