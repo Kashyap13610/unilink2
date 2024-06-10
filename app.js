@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 
 app.get('/.well-known/apple-app-site-association', (req, res) => {
-    const filePath = path.join(__dirname, 'apple-app-site-association');
+    const filePath = path.join(__dirname, 'apple-app-site-association.json');
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
             res.status(500).send('Internal Server Error');
