@@ -1,22 +1,27 @@
 {
-    "applinks": {
-        "details": [
-            {
-                "appIDs": "LYTQ3DGC2U.com.bw.calgaryHostApp",
-                "components": [
-                    {
-                        "/": "/details/*"
-                    }
-                ]
-            },
-            {
-                "appIDs": "LYTQ3DGC2U.com.bw4.calgary",
-                "components": [
-                    {
-                        "/": "/details/*"
-                    }
-                ]
-            }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "LYTQ3DGC2U.com.bw.calgaryHostApp",
+          "LYTQ3DGC2U.com.bw4.calgary"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/details/*"
+          }
         ]
-    }
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "LYTQ3DGC2U.com.bw.calgaryHostApp",
+      "LYTQ3DGC2U.com.bw4.calgary"
+    ]
+  }
 }
